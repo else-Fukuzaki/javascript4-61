@@ -9,7 +9,6 @@ let $tomato$Count;
 let _tomato_Count;
 let tomato7Count7;
 
-
 let additionResult = 2 + 5;
 let result = 5;
 result = result + 1;
@@ -23,6 +22,19 @@ number = -4; //integer
 number = 3.142; //float
 let string = 'Hello, World!'; //string
 number = 'hello'; //stringも代入できる
+
+const coffee = {
+  name: 'Latte',
+  price: 400,
+  isHot: true,
+  toppings: ['milk', 'sugar'],
+  nutrition: {
+    calories: 150,
+    fat: 5,
+    carbohydrates: 20,
+    protein: 3,
+  },
+};
 
 const userName = 'Alice';
 string = `hello ${userName}!`; //テンプレートリテラル
