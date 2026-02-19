@@ -47,3 +47,8 @@ function add(num1, num2) {
 }
 const returnedValue = add(2, 3);
 console.log(returnedValue);
+
+let watchedValue = 1;
+watchedValue = 2;
+watchedValue = 3;
+watchedValue = 4;
